@@ -22,7 +22,7 @@ Requirements
 
     In XAMPP, intl extension is included but you have to uncomment
     ``extension=php_intl.dll`` in **php.ini** and restart the server through
-    the XAMPP Control Panel.
+    the XAMPP Control Panel.(in new version of php you have to uncomment extension=intl)
 
     In WAMP, the intl extension is "activated" by default but not working.
     To make it work you have to go to php folder (by default)
